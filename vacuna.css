@@ -1,0 +1,419 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+}
+/* Estilos del link */
+a:link{
+    color: #6D7B93;
+    text-decoration: none;
+}
+a:hover{
+    color: #2D4DCB;
+}
+/* Estilos de link */
+/* Header */
+    #rectangulo_header{
+        width: 610px;
+        height: 140px;
+        background: #E6F4FC;
+        position: absolute;
+        left: 725px;
+        top: 0px;
+        opacity: 98%;
+        z-index: -1;
+        box-shadow: .09em 1em 1em  #E6F4FC;
+        opacity: 50%;
+        
+}
+    
+    #Fondo_titulo1{
+        position: absolute;
+        left: 70px;
+        top: 67px;
+        width: 0;
+        height: 0;
+        border: 13px solid transparent;
+        border-top-color: #F4F6FB;
+        z-index: -1;
+    } 
+
+    #Fondo_titulo2{
+        width: 0;
+        height: 0;
+        border: 13px solid transparent;
+        border-bottom-color: #F4F6FB;
+        position: relative;
+        top: 17px;
+        margin-left: 40px;
+        z-index: -1;
+    }
+
+    section.Vaccination{
+        text-align: left;
+        color: #2D4DCB;
+        font-size: 30px;
+        font-family: "Semi-Bold 600", sans-serif;
+        margin-left: 30px;
+        font-weight: bold;
+        display: inline;
+        z-index: 1;
+    }
+
+    header.ParteSuperior{
+        margin-top: 25px;
+    }
+
+    button.HoaxBuster{
+        font-weight: bold;
+        font-size: 15px;
+        display: inline;
+        text-align: right;
+        color: white;
+        background-color: #2E4ECC;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 14px 45px;
+        border-bottom: hidden;
+        border-color: #2E4ECC;
+    }
+
+    section.CabezaDerecha{
+        text-align: right;
+        margin-top: -50px;
+        font-weight: bold;
+        word-spacing: 60px;
+        padding-bottom: 40px;        
+    }
+/* Header */
+
+/* Body */
+    /* Parrafo1 */
+        section.PrimeraSeccion{
+            margin-left: 50px;
+        }
+        h1.Titulo1{
+            font-size: 65px;
+            color: #1F3E72;
+            margin-top: 15px;
+        }
+
+        h2.Parrafo1{
+            color: #6D7B93;
+            font-size: 20px;
+            line-height: 30px;
+
+        }
+
+        img.Doctora1{
+            width: 600px;
+            height: 840px;
+            float: right;
+            margin-top: 10px;
+            
+        }
+
+        h3.PiePàrrafo1{
+            color: #1F3E72;
+            display: inline;           
+            padding-left: -35px;
+            margin-left: -10px;
+            font-size: 17.5px;
+        }
+
+        
+        img.SelloVacuna{
+            width: 55px;
+            height: 90px;
+            vertical-align: -35px;
+            margin-left: -5px;
+            padding-left: 52px;
+        }
+
+        img.LogoBestProtection{
+            width: 60px;
+            height: 100px;
+            vertical-align: -43.5px;
+            padding-top: 5px;
+            margin-left: -17px;
+        }
+   
+        #triangulobajo{
+            width: 0;
+            height: 0;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-top: 75px solid #F4F6FB;
+            margin-left: -7px;
+            margin-top: 10px;
+        }
+
+        #trianguloLateral{
+            width: 0;
+            height: 0;
+            border-top: 100px solid transparent;
+            border-right: 100px solid #F4F6FB;
+            border-bottom: 100px solid transparent;
+            margin-left: 560px;
+            margin-top: -150px;
+
+        }
+
+
+    /* Parrafo1 */
+
+    /* Recoleccion de datos */
+
+        section.Schedule_your_vaccination{
+            position: absolute;
+        }
+
+        img.LogoReloj{
+            width: 57px;
+            height: 77px;
+            vertical-align: -28px;
+            margin-left: 38px;
+            margin-top: -40px;
+        }
+
+        h1.Recoleccion_De_Datos{
+            color: #1F3E72;
+            font-size: 22px;
+            display: inline;
+        }
+
+        img.Imagen_ubicacion{
+            width: 57px;
+            height: 77px;
+            margin: -30px -50px 20px 40px;
+            vertical-align: -50px;
+            padding-left: 60px;
+            padding-top: 43px;
+        }
+
+        h2.Location{
+            color: #6D7B93;
+            font-size: 20px;
+            display: inline;
+            padding-left: 25px;
+        }
+
+        img.Logo_fecha{
+            width: 48px;
+            height: 79px;
+            margin: -30px -10px 20px 30px;
+            vertical-align: -53px;
+            padding-left: 60px;
+            padding-top: 30px;
+        }
+
+        h2.Date{
+            color: #6D7B93;
+            font-size: 20px;
+            display: inline;            
+        }
+
+        img.Logo_tipo_vacuna{
+            width: 45px;
+            height: 55px;
+            margin: -30px -20px 20px 20px;
+            vertical-align: -39px;
+            padding-left: 60px;
+            padding-top: 30px;
+        }
+
+        h2.VaccineType{
+            color: #6D7B93;
+            font-size: 20px;
+            display: inline;
+        }
+
+        #Localizacion{
+            border-bottom: hidden;
+            background-color: white;
+            border-style: hidden;
+            font-weight: bold;
+            color: #1F3E72;
+            font-size: 18px;
+            -webkit-appearance: none;
+            margin-left: 166px;
+            vertical-align: 60px;
+            margin-top: -35px;
+        }
+
+        #fecha1{
+            border-bottom: hidden;
+            background-color: white;
+            border-style: hidden;
+            font-weight: bold;
+            color: #1F3E72;
+            font-size: 18px;
+            appearance: none;
+            vertical-align: 60px;
+            margin-top: -35px;
+            margin-left: 83px;
+           
+        }
+
+        #Vaccine_Type{
+            border-bottom: hidden;
+            background-color: white;
+            border-style: hidden;
+            font-weight: bold;
+            color: #1F3E72;
+            font-size: 18px;
+            appearance: none;
+            vertical-align: 60px;
+            margin-top: -35px;
+            margin-left: 32px;
+            opacity: 98%;
+        }
+
+        #submit{
+            font-weight: bold;
+            font-size: 15px;
+            display: inline;
+            text-align: right;
+            color: white;
+            background-color: #2E4ECC;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 14px 45px;
+            border-bottom: hidden;
+            border-color: #2E4ECC; 
+            vertical-align: 74px;
+            margin-top: -80px;
+            margin-left: 45px;
+        }
+        #rectangulo_opacado{
+            width: 910px;
+            height: 130px;
+            background: white;
+            position: absolute;
+            margin: 80px;
+            opacity: 98%;
+            box-shadow: .005em 1em 2em #E1EBF9 ;
+        }
+
+    /* Logos Marcas de Vacuna */
+        img.Logo_AstraZeneca{
+            width: 240px;
+            height: 60px;
+            opacity: 50%;
+            color: #E1EBF9;
+            filter: contrast(0%) opacity(60%);
+            padding-top: 60px;
+            padding-left: 30px;
+            padding-right: 90px;
+        }
+
+        img.Logo_Sinovac{
+            width: 200px;
+            height: 40px;
+            opacity: 50%;
+            color: #E1EBF9;
+            filter: contrast(0%) opacity(60%);
+            padding-right: 90px;
+        }
+
+        img.Logo_Pfizer{
+            width: 170px;
+            height: 45px;
+            opacity: 50%;
+            color: #E1EBF9;
+            filter: contrast(0%) opacity(60%);
+            padding-right: 90px;
+        }
+
+        img.Logo_Moderna{
+            width: 170px;
+            height: 45px;
+            opacity: 50%;
+            color: #E1EBF9;
+            filter: contrast(0%) opacity(60%);
+            padding-right: 90px;
+        }
+
+    /* Parrafo2 */
+        #Why_should_i_vaccine{
+            font-size: 45px;
+            padding-bottom: 10px;
+        }
+
+        #Parrafo2{
+            padding-bottom: 10px;
+            line-height: 30px;
+        }
+
+    /* Parrafo de interactivos */
+        h2.InteraccionT{
+            font-size: 22px;
+            color: #1F3E72;
+        }
+
+        p.InteraccionP{
+            color: #7F8CA1;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+        section.Interactivo1{
+            position: absolute;
+            padding-left: 16px;
+            padding-top: 95px;
+        }
+
+        section.Interactivo2{
+            position: absolute;
+            padding-left: 345px;
+            padding-top: 95px;
+        }
+
+        section.Interactivo3{
+            position: absolute;
+            padding-left: 658px;
+            padding-top: 95px;
+        }
+
+        section.Interactivo4{
+            position: absolute;
+            padding-left: 987px;
+            padding-top: 95px;
+        }
+
+        #rectanguloI1{
+            width: 260px;
+            height: 290px;
+            background: none;
+            position: absolute;
+            margin: 80px;
+            top: -70px;
+            left: -70px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #FAFAFF;
+            border-radius: 5px;
+            
+        }
+
+        img.Logo_Interaccion_1{
+            width: 55px;
+            height: 57px;
+            position: absolute;
+            top: 35px;
+        }
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+/* Body */
+
