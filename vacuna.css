@@ -344,6 +344,17 @@ a:hover{
             line-height: 30px;
         }
 
+        #trianguloLateral2{
+            width: 0;
+            height: 0;
+            border-top: 100px solid transparent;
+            border-right: 100px solid #F4F6FB;
+            border-bottom: 100px solid transparent;
+            margin-left: 1220px;
+            margin-top: -150px;
+            position: absolute;
+        }
+
     /* Parrafo de interactivos */
         h2.InteraccionT{
             font-size: 22px;
@@ -381,6 +392,13 @@ a:hover{
             padding-top: 95px;
         }
 
+        img.Logo_Interaccion_1{
+            width: 55px;
+            height: 57px;
+            position: absolute;
+            top: 35px;
+        }
+
         #rectanguloI1{
             width: 260px;
             height: 290px;
@@ -396,12 +414,225 @@ a:hover{
             
         }
 
-        img.Logo_Interaccion_1{
+        img.Logo_Escudo2{
             width: 55px;
             height: 57px;
             position: absolute;
             top: 35px;
+            left: 350px;
         }
+
+        #rectanguloI2{
+            width: 260px;
+            height: 290px;
+            background: none;
+            position: absolute;
+            margin: 80px;
+            top: -70px;
+            left: 260px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #FAFAFF;
+            border-radius: 5px;
+            
+        }
+
+        img.Logo_Personas{
+            width: 55px;
+            height: 57px;
+            position: absolute;
+            top: 35px;
+            left: 660px;
+        }
+
+        #rectanguloI3{
+            width: 260px;
+            height: 290px;
+            background: none;
+            position: absolute;
+            margin: 80px;
+            top: -70px;
+            left: 570px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #FAFAFF;
+            border-radius: 5px;
+            
+        }
+
+        img.Logo_Mensaje{
+            width: 55px;
+            height: 57px;
+            position: absolute;
+            top: 35px;
+            left: 990px;
+        }
+
+        #rectanguloI4{
+            width: 260px;
+            height: 290px;
+            background: none;
+            position: absolute;
+            margin: 80px;
+            top: -70px;
+            left: 900px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #FAFAFF;
+            border-radius: 5px;   
+        }
+
+        #Preparations_Before_Vaccine{
+            font-size: 35px;
+            margin-left: 670px;
+        }
+
+    /* Parrafo 3 */
+
+        #Parrafo3{
+            margin-left: 670px;
+        }
+
+        #TituloD{
+            color: #1F3E72;
+            font-size: 20px;
+            font-weight: bold;
+            list-style: none; 
+            cursor: pointer; 
+            margin-left: 625px;
+            padding-bottom: 60px;
+        }
+
+        #TituloD::before{
+            content: url(img/Flecha_chiquita.png);   
+            color: #6D7B93; 
+        }
+
+        #ParrafoD{
+            color: #6D7B93;
+            font-weight: 510;
+            font-size: 15px;
+            position: relative;
+            right:-640px;
+            top: -35px;
+        }
+        
+
+         summary.TituloD1::before{
+            right: -570px;
+            position: relative;
+            top: 8px;
+        }
+
+        summary.TituloD2::before{
+            right: -570px;
+            position: relative;
+            top: 8px;
+        }
+
+        summary.TituloD3::before{
+            right: -570px;
+            position: relative;
+            top: 8px;
+        }
+
+        summary.TituloD4::before{
+            right: -570px;
+            position: relative;
+            top: 8px;
+        }
+
+        summary.TituloD5::before{
+            right: -570px;
+            position: relative;
+            top: 8px;
+        }
+
+        summary.TituloD1::after{
+            color: #6D7B93;
+        }
+
+        img.LogoEscudoX{
+            position: relative;
+            width: 35px;
+            height: 37px;
+            top: 10px;
+            padding-left: -40px;
+            margin-left: -10px;
+        }
+
+        img.LogoX{
+            position: relative;
+            width: 35px;
+            height: 37px;
+            top: 10px;
+            left: -5px;
+            padding-left: -30px;
+            margin-left: 0px;
+        }
+
+        img.Logo_Estadistica{
+            position: relative;
+            width: 35px;
+            height: 37px;
+            top: 10px;
+            left: -5px;
+            padding-left: -30px;
+            margin-left: 0px;
+        }
+
+        img.Logo_Palomita{
+            position: relative;
+            width: 35px;
+            height: 37px;
+            top: 10px;
+            left: -5px;
+            padding-left: -30px;
+            margin-left: 0px;
+        }
+
+        img.Logo_Corazon{
+            position: relative;
+            width: 35px;
+            height: 37px;
+            top: 10px;
+            left: -5px;
+            padding-left: -30px;
+            margin-left: 0px;
+        }
+
+        img.Mujer_Dedo{
+            
+            height: 700px;
+            width: 760px;
+            margin-top: 437px;
+            position: absolute;
+            right: 630px;
+        }
+
+        #rectanguloFondo1{
+            width: 590px;
+            height: 516px;
+            background-color: #2D4DCB;
+            position: absolute;
+            margin: 80px;
+            top: 2060px;
+            left: -80px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #2D4DCB;
+            border-radius: 5px;  
+            z-index: -1; 
+        }
+
+    /* Emergenci Contact */
+        
+        
+        
+
+
+        
+
 
 
 
