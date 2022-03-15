@@ -283,6 +283,7 @@ a:hover{
             vertical-align: 74px;
             margin-top: -80px;
             margin-left: 45px;
+            cursor: pointer;
         }
         #rectangulo_opacado{
             width: 910px;
@@ -334,160 +335,91 @@ a:hover{
         }
 
     /* Parrafo2 */
-        #Why_should_i_vaccine{
-            font-size: 45px;
-            padding-bottom: 10px;
-        }
+    .Container{
+        width: 290px;
+        height: 220px;
 
-        #Parrafo2{
-            padding-bottom: 10px;
-            line-height: 30px;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
 
-        #trianguloLateral2{
-            width: 0;
-            height: 0;
-            border-top: 100px solid transparent;
-            border-right: 100px solid #F4F6FB;
-            border-bottom: 100px solid transparent;
-            margin-left: 1220px;
-            margin-top: -150px;
-            position: absolute;
-        }
+    .Card{
+        width: 250px;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: white;
+        box-shadow: 0px 1px 10px rgba(0, 0, 200, 0.2);
+        cursor: default;
+        transition: all 400ms ease;
 
-    /* Parrafo de interactivos */
-        h2.InteraccionT{
-            font-size: 22px;
-            color: #1F3E72;
-        }
+    }
 
-        p.InteraccionP{
-            color: #7F8CA1;
-            font-size: 15px;
-            font-weight: bold;
-            line-height: 25px;
-        }
+    .Card:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 400, 0.4);
+        transform: translateY(-3%);
+    }
 
-        section.Interactivo1{
-            position: absolute;
-            padding-left: 16px;
-            padding-top: 95px;
-        }
+    .Card img{
+        width: 59px;
+        height: 56px;
+        display: inline;
+        top: -165px;
+        position: relative;
+    }
 
-        section.Interactivo2{
-            position: absolute;
-            padding-left: 345px;
-            padding-top: 95px;
-        }
+     .Card .Content h2{
+        position: relative;
+        color: #1F3E72;
+        font-size: 22px;
+        top: 55px;
+    }
 
-        section.Interactivo3{
-            position: absolute;
-            padding-left: 658px;
-            padding-top: 95px;
-        }
+     .Card .Content p{
+        color: #6D7B93;
+        font-size: 14px;
+        position: relative;
+        top: 50px;
+        font-weight: bold;
+    }
 
-        section.Interactivo4{
-            position: absolute;
-            padding-left: 987px;
-            padding-top: 95px;
-        }
+    section.Interactivo2{
+        top: -485px;
+        right: -300px;
+        position: relative;
+    }
 
-        img.Logo_Interaccion_1{
-            width: 55px;
-            height: 57px;
-            position: absolute;
-            top: 35px;
-        }
+    #Logo_Escudo2{
+        top: -165px;
+    }
 
-        #rectanguloI1{
-            width: 260px;
-            height: 290px;
-            background: none;
-            position: absolute;
-            margin: 80px;
-            top: -70px;
-            left: -70px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: #FAFAFF;
-            border-radius: 5px;
-            
-        }
+    #Interaccion2C{
+        margin-top: 290px;      
+        height: 173px;
+        width: 340px;
+    }
 
-        img.Logo_Escudo2{
-            width: 55px;
-            height: 57px;
-            position: absolute;
-            top: 35px;
-            left: 350px;
-        }
+    section.Interactivo3{
+        top: -685px;
+        right: -660px;
+        position: relative;
+    }
 
-        #rectanguloI2{
-            width: 260px;
-            height: 290px;
-            background: none;
-            position: absolute;
-            margin: 80px;
-            top: -70px;
-            left: 260px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: #FAFAFF;
-            border-radius: 5px;
-            
-        }
-
-        img.Logo_Personas{
-            width: 55px;
-            height: 57px;
-            position: absolute;
-            top: 35px;
-            left: 660px;
-        }
-
-        #rectanguloI3{
-            width: 260px;
-            height: 290px;
-            background: none;
-            position: absolute;
-            margin: 80px;
-            top: -70px;
-            left: 570px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: #FAFAFF;
-            border-radius: 5px;
-            
-        }
-
-        img.Logo_Mensaje{
-            width: 55px;
-            height: 57px;
-            position: absolute;
-            top: 35px;
-            left: 990px;
-        }
-
-        #rectanguloI4{
-            width: 260px;
-            height: 290px;
-            background: none;
-            position: absolute;
-            margin: 80px;
-            top: -70px;
-            left: 900px;
-            border-width: 2px;
-            border-style: solid;
-            border-color: #FAFAFF;
-            border-radius: 5px;   
-        }
-
-        #Preparations_Before_Vaccine{
-            font-size: 35px;
-            margin-left: 670px;
-        }
+    section.Interactivo4{
+        top: -905px;
+        right: -995px;
+        position: relative;
+    }
 
     /* Parrafo 3 */
+    #Preparations_Before_Vaccine{
+        font-size: 35px;
+        margin-left: 670px;
+    }
 
         #Parrafo3{
             margin-left: 670px;
@@ -601,11 +533,10 @@ a:hover{
             margin-left: 0px;
         }
 
-        img.Mujer_Dedo{
-            
+        img.Mujer_Dedo{ 
             height: 700px;
             width: 960px;
-            margin-top: 437px;
+            margin-top: 307px;
             position: absolute;
             right: 630px;
         }
@@ -616,13 +547,32 @@ a:hover{
             background-color: #2D4DCB;
             position: absolute;
             margin: 80px;
-            top: 2060px;
+            top: 2005px;
             left: -80px;
             border-width: 2px;
             border-style: solid;
             border-color: #2D4DCB;
             border-radius: 5px;  
             z-index: -1; 
+        }
+
+        section.Details1{
+            right: -500px;
+            top: -500px;
+            margin-top: -1310px;
+        }
+
+    
+        #trianguloLateral2{
+            width: 0;
+            height: 0;
+            border-top: 100px solid transparent;
+            border-right: 100px solid #F4F6FB;
+            border-bottom: 100px solid transparent;
+            margin-left: 1220px;
+            margin-top: -177px;
+            position: absolute;
+ 
         }
 
     /* Emergenci Contact */
@@ -747,19 +697,99 @@ a:hover{
             padding: 14px 35px;
         }
 
+        img.Doctor_Telefono{
+            height: 700px;
+            width: 960px;
+            position: absolute;
+            top: 2950px;
+            right: -100px;
+        }
 
-
-       
-
-
-        
-        
-
-
-
-
-
-
-
+        #rectanguloFondo2{
+            width: 620px;
+            height: 516px;
+            background-color: #2D4DCB;
+            position: absolute;
+            margin: 80px;
+            top: 3050px;
+            right: -100px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #2D4DCB;
+            border-radius: 5px;  
+            z-index: -1; 
+        }
 /* Body */
 
+/* footer */
+        h2.FooterTitle{
+            color: #2E4ECC;
+            font-size: 20px;
+        }
+
+        #TituloFooter{
+            font-size: 26px;
+            margin-top: 35px;
+            position: absolute;
+        }
+
+        #ParrafoFooter{
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            margin-top: 75px;
+            margin-left: 30px;
+        }
+
+        table.Footer{
+            margin-left: 750px;
+            height: 210px;
+        }
+
+        #Derechos{
+            font-size: 13px;
+        }
+
+        #Terms{
+            font-size: 16px;
+            margin-left: 900px;
+            margin-top: -10px;
+            position: absolute;
+        }
+
+        #Privacy{
+            font-size: 16px;
+            margin-left: 1100px;
+            margin-top: -10px;
+            position: absolute;
+        }
+
+        #AboutP{
+            color: #1F3E72;
+
+        }
+
+        #rectanguloFooter{
+            width: 1520px;
+            height: 260px;
+            background-color: #EEF3FF;
+            position: absolute;
+            margin: 80px;
+            top: 3690px;
+            right: -100px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #EEF3FF;
+            border-radius: 5px;  
+            z-index: -1; 
+        }
+
+        #TrianguloFooter{
+            width: 0;
+            height: 0;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-bottom: 75px solid #E1EBF9;
+            margin-left: 1000px;
+            margin-top: -70px;
+        }
